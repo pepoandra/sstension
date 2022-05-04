@@ -1,0 +1,22 @@
+{
+  "name": "SStension",
+  "version": "1.0",
+  "author": "Sebastian Andrade",
+  "description": "Quickly access different SSENSE resources for employees using the address bar as a CLI",
+  "manifest_version": 3,
+  "minimum_chrome_version": "88",
+  "omnibox": {
+    "keyword": "ss"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
